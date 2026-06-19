@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 9.361660003662109375, 1.6608493328094482421875, 4.534641265869140625, },
-			bbMin = { -8.77873992919921875, -1.66084945201873779296875, -0.05806362628936767578125, },
+			bbMax = { 18.8423614501953125, 4.320201396942138671875, 7, },
+			bbMin = { -18.224239349365234375, -4.320201396942138671875, -3.542710781097412109375, },
 		},
 		collider = { 
 			params = { 
@@ -18,13 +18,13 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_db2.mtl", },
+									materials = { "mat/rumpf_db1.mtl", },
 									mesh = "msh/rumpf_db_lod0.msh",
 									name = "rumpf_db",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/rumpf_db2.mtl", },
+									materials = { "mat/rumpf_db1.mtl", },
 									mesh = "msh/borde_modern_lod0.msh",
 									name = "borde_alt",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -36,8 +36,8 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/rumpf_db2.mtl", },
-									mesh = "msh/lampen_db2_lod0.msh",
+									materials = { "mat/rumpf_db1.mtl", },
+									mesh = "msh/lampen_db1_lod0.msh",
 									name = "Lampe_db",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -420,31 +420,31 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rumpf_lod0.msh",
 									name = "3t20",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod0.msh",
 									name = "a6",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.90390002727508544921875, 0, 0.4901680052280426025390625, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod0.msh",
 									name = "a7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0010999999940395355224609375, 0, 0.4901680052280426025390625, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod0.msh",
 									name = "a8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.89960002899169921875, 0, 0.4901680052280426025390625, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/lampen_db_lod0.msh",
 									name = "Lampe_old",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -516,13 +516,13 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_db2.mtl", },
+									materials = { "mat/rumpf_db1.mtl", },
 									mesh = "msh/rumpf_db_lod1.msh",
 									name = "rumpf_db",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/rumpf_db2.mtl", },
+									materials = { "mat/rumpf_db1.mtl", },
 									mesh = "msh/borde_lod1.msh",
 									name = "borde_alt",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -534,7 +534,7 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/rumpf_db2.mtl", },
+									materials = { "mat/rumpf_db1.mtl", },
 									mesh = "msh/lampen_db_lod1.msh",
 									name = "Lampe_old",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -744,31 +744,31 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rumpf_lod1.msh",
 									name = "3t20",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod1.msh",
 									name = "a6",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.90390002727508544921875, 0, 0.4901680052280426025390625, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod1.msh",
 									name = "a7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0010999999940395355224609375, 0, 0.4901680052280426025390625, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod1.msh",
 									name = "a8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.89960002899169921875, 0, 0.4901680052280426025390625, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/lampen_db_lod1.msh",
 									name = "Lampe_old",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -819,7 +819,7 @@ return {
 								},
 							},
 							name = "tender_3t16",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.545239925384521484375, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1742401123046875, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -834,7 +834,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_db2.mtl", },
+									materials = { "mat/rumpf_db1.mtl", },
 									mesh = "msh/rumpf_db_lod2.msh",
 									name = "rumpf_db",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -876,25 +876,25 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rumpf_lod2.msh",
 									name = "3t20",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod2.msh",
 									name = "a6",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.90390002727508544921875, 0, 0.4901680052280426025390625, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod2.msh",
 									name = "a7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0010999999940395355224609375, 0, 0.4901680052280426025390625, 1, },
 								},
 								{ 
-									materials = { "mat/tender_3t16/rumpf_db2.mtl", },
+									materials = { "mat/tender_3t16/rumpf_db1.mtl", },
 									mesh = "msh/tender_3t16/rad_lod2.msh",
 									name = "a8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.89960002899169921875, 0, 0.4901680052280426025390625, 1, },
@@ -913,15 +913,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1958,
-				yearTo = 1970,
+				yearFrom = 1947,
+				yearTo = 1958,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("pr_g10_db_desc"),
-				name = _("pr_g10_3t20_db2"),
+				name = _("pr_g10_3t20_db1"),
 			},
 			emissions = { 
 				noise = { 
@@ -934,6 +934,10 @@ return {
 					power = -1,
 					speed = -1,
 				},
+			},
+			extent = { 
+				bbMax = { 9.35863018035888671875, 1.660849094390869140625, 4.534640789031982421875, },
+				bbMin = { -8.789211273193359375, -1.66084969043731689453125, -0.0525447428226470947265625, },
 			},
 			landVehicle = { 
 				brakeDeceleration = 2.5,
@@ -948,10 +952,6 @@ return {
 				topSpeed = 16.6666660308837890625,
 				weightEmpty = 122000,
 				weightMaxPayload = 0,
-			},
-			extent = { 
-				bbMax = { 9.35863018035888671875, 1.660849094390869140625, 4.534640789031982421875, },
-				bbMin = { -8.789211273193359375, -1.66084969043731689453125, -0.0525447428226470947265625, },
 			},
 			lightSourceList = { 
 				lights = {
@@ -1046,7 +1046,7 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.1400001049041748046875, 0.89999997615814208984375, 1.440000057220458984375, 1, },
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.0499999523162841796875, 0.89999997615814208984375, 1.46000003814697265625, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
@@ -1062,7 +1062,7 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.1400001049041748046875, -0.89999997615814208984375, 1.440000057220458984375, 1, },
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.0499999523162841796875, -0.89999997615814208984375, 1.46000003814697265625, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
@@ -1078,7 +1078,7 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1.5,
-						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -2.9700000286102294921875, 0, 2.690000057220458984375, 1, },
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -2.6099998950958251953125, 0, 2.88000011444091796875, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
@@ -1094,7 +1094,7 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.1400001049041748046875, 0.89999997615814208984375, 1.440000057220458984375, 1, },
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.0499999523162841796875, 0.89999997615814208984375, 1.46000003814697265625, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
@@ -1110,7 +1110,7 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.1400001049041748046875, -0.89999997615814208984375, 1.440000057220458984375, 1, },
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.0499999523162841796875, -0.89999997615814208984375, 1.46000003814697265625, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
@@ -1371,10 +1371,11 @@ return {
 						},
 					},
 				},
-				engineTags = { "TRAIN", "ELECTRIC_TRAIN", },
+				engineTransportModes = { "TRAIN", "ELECTRIC_TRAIN", },
 				groupFileName = "menu_pr_g10.mdl",
 				reversible = true,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
