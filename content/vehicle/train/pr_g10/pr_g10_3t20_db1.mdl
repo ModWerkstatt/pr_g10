@@ -936,7 +936,7 @@ return {
 				},
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.4,
 				engines = {
 					{ 
 						power = 809,
